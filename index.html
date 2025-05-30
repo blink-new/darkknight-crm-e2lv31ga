@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DarkKnight CRM</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Gotham/Batman headline font: Bebas Neue, plus Inter for body -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Bebas+Neue&display=swap" rel="stylesheet">
+    <!-- CRITICAL: DO NOT REMOVE/MODIFY THIS COMMENT OR THE SCRIPT BELOW -->
+    <!-- CRITICAL: Auto-engineer helper loaded only in production envs to avoid 502 during local dev -->
+    <script type="module">
+      const shouldLoad = location.hostname.endsWith('.blink.new') || location.hostname === 'blink.new';
+      if (shouldLoad) {
+        const s = document.createElement('script');
+        s.type = 'module';
+        s.src = 'https://blink.new/auto-engineer.js?projectId=darkknight-crm-e2lv31ga';
+        document.head.appendChild(s);
+      }
+    </script>
+  </head>
+  <body class="dark">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
